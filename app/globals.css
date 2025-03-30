@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm1: 320px;
+  --breakpoint-sm2: 425px;
+  --breakpoint-sm3: 525px;
+  --breakpoint-md1: 768px;
+  --breakpoint-md2: 900px;
+  --breakpoint-lg1: 1024px;
+  --breakpoint-lg2: 1250px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-xl2: 1600px;
+}
+
+body {
+  background: #000;
+  color: #FFF;
+}
+
+th, td {
+  width: 220px;
+  height: 80px;
+  border: 1px solid #3b3b3b;
+}
+
+@media (min-width: 320px) and (max-width: 525px) {
+  th, td {
+    height: 50px;
+  }
+}
+
+@media (min-width: 525px) and (max-width: 768px) {
+  th, td {
+    height: 55px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1250px) {
+  th, td {
+    height: 65px;
+  }
+}
