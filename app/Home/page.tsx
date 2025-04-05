@@ -42,7 +42,7 @@ const Home = () => {
       <div className='flex md1:flex-row sm1:flex-col justify-between px-[20px] items-center gap-[50px] bg-gradient-to-tl from-[#1f1f1f] via-[#1f1f1f] to-[#ffffff]/18 rounded-[20px] '>
 
         {/* Left */}
-        <motion.div initial="hidden" whileInView="visible" variants={{hidden: { x: -100, opacity: 0 }, visible: { x: 0, opacity: 1 },}} transition={{ duration: 0.8 }} className='flex flex-col gap-[20px] py-[100px] xl:w-[625px] md1:w-[300px] lg2:w-[600px]'>
+        <motion.div initial="hidden" whileInView="visible" variants={{hidden: { y: -100, opacity: 0 }, visible: { y: 0, opacity: 1 },}} transition={{ duration: 0.8 }} className='flex flex-col gap-[20px] py-[100px] xl:w-[625px] md1:w-[300px] lg2:w-[600px]'>
           <h1 className={`${syne.className} xl:text-[40px] sm1:text-[25px] lg2:text-[35px] font-medium leading-[90%]`}>Let&apos;s get know about me closer</h1>
 
           <p className={`text-[#a8a8a8]`}>Muhammad Shariq is a frontend developer passionate about crafting responsive and interactive UIs. His work spans web design, Next.js projects, and TypeScript applications, while also learning Python to expand his skills.</p>
@@ -50,7 +50,7 @@ const Home = () => {
           <Link href='/About' className='font-medium text-[14px] bg-[#FF9142] hover:bg-[#ff7842ec] duration-500 hover:duration-500 px-[32px] py-[10px] rounded-full w-[240px] mt-[10px] hover:animate-pulse'>Discover More About Me</Link>
         </motion.div>
 
-        <motion.div initial="hidden" whileInView="visible" variants={{hidden: { x: 100, opacity: 0 }, visible: { x: 0, opacity: 1 },}} transition={{ duration: 0.8 }}>
+        <motion.div initial="hidden" whileInView="visible" variants={{hidden: { y: 100, opacity: 0 }, visible: { y: 0, opacity: 1 },}} transition={{ duration: 0.8 }}>
           <Image src='/my-photo2.jpg' alt='My Photo' width={500} height={500} className='rounded-[10px] shadow-xl shadow-[#464646] xl:w-[500px] md1:w-[300px] md2:w-[350px] lg2:w-[400px]'/>
         </motion.div>
 
@@ -60,7 +60,7 @@ const Home = () => {
       <div className='flex flex-col justify-center items-center py-[50px]'>
 
         {/* 1 */}
-        <motion.div initial="hidden" whileInView="visible" variants={{hidden: { x: -100, opacity: 0 }, visible: { x: 0, opacity: 1 },}} transition={{ duration: 1}} className='rounded-[20px] flex flex-col justify-center items-center gap-[50px] w-full xl:h-[400px] md1:h-[200px] lg2:h-[300px]'>
+        <motion.div initial="hidden" whileInView="visible" variants={{hidden: { y: -100, opacity: 0 }, visible: { y: 0, opacity: 1 },}} transition={{ duration: 1}} className='rounded-[20px] flex flex-col justify-center items-center gap-[50px] w-full xl:h-[400px] md1:h-[200px] lg2:h-[300px]'>
           <h1 className={`${syne.className} xl:text-[60px] sm1:text-[25px] md2:text-[32px] lg2:text-[40px] font-medium backdrop-brightness-115 px-[50px] rounded-full`}>My Projects Highlight</h1>
 
           <Link href='/Projects' className='font-medium text-[14px] border-[#FF9142] border-[2px] hover:bg-[#FF9142] duration-700 hover:duration-700 px-[32px] py-[15px] rounded-full hover:animate-pulse'>EXPLORE MORE <FontAwesomeIcon icon={faArrowRight} className='size-[15px] inline-flex items-center ml-[5px] ' /></Link>
@@ -70,7 +70,7 @@ const Home = () => {
         <div className='flex lg1:flex-row sm1:flex-col justify-center gap-[100px] items-center w-full'>
 
           {/* project1 */}
-          <motion.div initial="hidden" whileInView="visible" variants={{hidden: { x: -100, opacity: 0 }, visible: { x: 0, opacity: 1 },}} transition={{ duration: 1.5 }} viewport={{ amount: 0.6 }} className='flex flex-col gap-[10px] xl:w-[600px] xl:h-[420px] sm1:h-[300px] sm2:h-[350px] md1:h-[400px] lg1:h-[350px] bg-[#262626]  rounded-[10px] card'>
+          <motion.div initial="hidden" whileInView="visible" variants={{hidden: { y: -100, opacity: 0 }, visible: { y: 0, opacity: 1 },}} transition={{ duration: 1.5 }} viewport={{ amount: 0.3 }} className='flex flex-col gap-[10px] xl:w-[600px] xl:h-[420px] sm1:h-[300px] sm2:h-[350px] md1:h-[400px] lg1:h-[350px] bg-[#262626]  rounded-[10px] card'>
             <Image src='/project1.png' width={600} height={400} alt='Project 1' className='rounded-[10px] xl:w-[600px] xl:h-[300px]'/>
             <div className='px-[32px]'>
               <h1 className={`${syne.className} text-[30px] font-medium mb-[10px]`}>Personal Blog Website <span className='text-[#FF9142] ml-[15px]'>───</span></h1>
@@ -81,7 +81,7 @@ const Home = () => {
 
 
           {/* project2 */}
-          <motion.div initial="hidden" whileInView="visible" variants={{hidden: { x: 200, opacity: 0 }, visible: { x: 0, opacity: 1 },}} transition={{ duration: 1 }} viewport={{ amount: 0.6 }}  className='flex flex-col gap-[10px] xl:w-[600px] xl:h-[420px] sm1:h-[300px] sm2:h-[350px] md1:h-[400px] lg1:h-[350px] bg-[#262626]  rounded-[10px] card'>
+          <motion.div initial="hidden" whileInView="visible" variants={{hidden: { y: -200, opacity: 0 }, visible: { y: 0, opacity: 1 },}} transition={{ duration: 1 }} viewport={{ amount: 0.3 }}  className='flex flex-col gap-[10px] xl:w-[600px] xl:h-[420px] sm1:h-[300px] sm2:h-[350px] md1:h-[400px] lg1:h-[350px] bg-[#262626]  rounded-[10px] card'>
             <Image src='/project2.png' width={600} height={400} alt='Project 2' className='rounded-[10px] xl:w-[600px] '/>
             <div className='px-[32px]'>
               <h1 className={`${syne.className} text-[30px] font-medium mb-[10px]`}>E-Commerce Website <span className='text-[#FF9142] ml-[15px]'>───</span></h1>
