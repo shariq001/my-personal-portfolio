@@ -14,20 +14,19 @@ const syne = Syne({
 const Footer = () => {
   return (
     <div className='sm1:px-[16px] sm2:px-[20px] md1:px-[25px] md2:px-[30px] lg1:px-[50px] lg2:px-[75px] xl:px-[100px] pt-[50px] bg-black flex flex-col justify-center items-center gap-[20px]'>
-      <p className={`${syne.className} text-[24px] font-semibold text-[#FF9142]`}>Get in Touch With Us</p>
-      <Link href='mailto:shariqfazal123@gmail.com' className={`${syne.className} text-[30px] font-semibold `}>shariqfazal123@gmail.com</Link>
+      <p className={`${syne.className} xl:text-[24px] md2:text-[20px] font-semibold text-[#FF9142]`}>Get in Touch With Us</p>
 
-      <div className='w-full flex justify-between mt-[50px]'>
+      <Link href='mailto:shariqfazal123@gmail.com' className={`${syne.className} xl:text-[30px] md2:text-[24px] font-semibold `}>shariqfazal123@gmail.com</Link>
+
+      <div className='w-full flex md1:flex-row sm1:flex-col gap-[20px] sm1:items-center md1:items-start justify-between md1:mt-[50px]'>
         <h1 className="xl:text-[24px] md1:text-[18px] font-semibold">
           MUHAMMAD SHARIQ
         </h1>
 
         <p className={` font-medium`}>Latifabad, Hyderabad <br /> Sindh, Pakistan</p>
 
-        <div className='flex flex-col gap-[5px]'>
-          <p className={`font-semibold`}>+92 318 2965 978</p>
-
-          <hr />
+        <div className='flex flex-col gap-[5px] sm1:items-center'>
+          <p className={`font-semibold border-b-[1px] border-[#bbb]`}>+92 318 2965 978</p>
           
           <div className='flex justify-start items-center gap-[10px]'>
             <Link href="https://www.linkedin.com/in/muhammad---shariq" target="_blank" className="">
