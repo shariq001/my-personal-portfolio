@@ -15,7 +15,7 @@ const Header = () => {
   };
 
   return (
-    <div className="sm1:px-[16px] sm2:px-[20px] md1:px-[25px] md2:px-[30px] lg1:px-[50px] lg2:px-[75px] xl:px-[100px] py-[16px] flex justify-between items-center right-0 max-w-[1600px]">
+    <div className="sm1:px-[16px] sm2:px-[20px] md1:px-[25px] md2:px-[30px] lg1:px-[50px] lg2:px-[75px] xl:px-[100px] py-[16px] flex justify-between items-center right-0 max-w-[1600px] mx-auto">
       
       {/* Name */}
       <h1 className="xl:text-[24px] md1:text-[18px] font-semibold">

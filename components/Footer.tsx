@@ -13,7 +13,7 @@ const syne = Syne({
 
 const Footer = () => {
   return (
-    <div className='sm1:px-[16px] sm2:px-[20px] md1:px-[25px] md2:px-[30px] lg1:px-[50px] lg2:px-[75px] xl:px-[100px] pt-[50px] bg-black flex flex-col justify-center items-center gap-[20px]'>
+    <div className='sm1:px-[16px] sm2:px-[20px] md1:px-[25px] md2:px-[30px] lg1:px-[50px] lg2:px-[75px] xl:px-[100px] pt-[50px] bg-black flex flex-col justify-center items-center gap-[20px] max-w-[1600px] mx-auto'>
       <p className={`${syne.className} xl:text-[24px] md2:text-[20px] font-semibold text-[#FF9142]`}>Get in Touch With Us</p>
 
       <Link href='mailto:shariqfazal123@gmail.com' className={`${syne.className} xl:text-[30px] md2:text-[24px] font-semibold `}>shariqfazal123@gmail.com</Link>
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className='py-[16px] border-t-[1px] border-[#5e5e5e] w-full text-center mt-[20px]'>@2025. Muhammad Shariq. All Rights Reserved.</p>
+      <p className='py-[16px] text-[#999] border-t-[1px] border-[#5e5e5e] w-full text-center mt-[20px] sm1:text-[12px] sm2:text-[14px]'>@2025. Muhammad Shariq. All Rights Reserved.</p>
     </div>
   )
 }
