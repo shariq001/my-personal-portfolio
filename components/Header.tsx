@@ -59,23 +59,23 @@ const Header = () => {
           </button>
 
           {/* Links (Each link closes the menu) */}
-          <Link href="" onClick={toggleMenu} className="text-white">
+          <Link href="/Home" onClick={toggleMenu} className="text-white">
             Home
           </Link>
-          <Link href="" onClick={toggleMenu} className="text-white">
+          <Link href="/Projects" onClick={toggleMenu} className="text-white">
             Projects
           </Link>
-          <Link href="" onClick={toggleMenu} className="text-white">
+          <Link href="/About" onClick={toggleMenu} className="text-white">
             About
           </Link>
-          <Link href="" onClick={toggleMenu} className="text-white">
+          <Link href="/Contact" onClick={toggleMenu} className="text-white">
             Contact
           </Link>
           <div className="flex gap-4">
-            <Link href="" onClick={toggleMenu}>
+            <Link href="https://www.linkedin.com/in/muhammad---shariq" target="_blank" onClick={toggleMenu}>
               <FontAwesomeIcon icon={faLinkedinIn} className="text-white size-[20px]" />
             </Link>
-            <Link href="" onClick={toggleMenu}>
+            <Link href="https://github.com/shariq001" target="_blank" onClick={toggleMenu}>
               <FontAwesomeIcon icon={faGithub} className="text-white size-[20px]" />
             </Link>
           </div>
