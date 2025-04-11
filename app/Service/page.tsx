@@ -59,58 +59,58 @@ const Service = () => {
                     field="email"
                     errors={state.errors}
                 />
-                <label htmlFor="name" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
+                <label htmlFor="Type of website" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
                     What Type of Website
                 </label>
                 <input
-                    id="name"
+                    id="typeofwebsite"
                     type="text" 
-                    name="name"
+                    name="Type of website"
                     placeholder='e.g Portfolio, E-commerce, Blog'
                 />
-                <label htmlFor="name" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
+                <label htmlFor="What do you need done" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
                     What do you need done
                 </label>
                 <input
-                    id="name"
+                    id="Whatdoyouneeddone"
                     type="text" 
-                    name="name"
+                    name="What do you need done"
                     placeholder='New Website, Redesign, Fix Bugs'
                 />
-                <label htmlFor="name" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
+                <label htmlFor="Manage" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
                     How are you going to manage it after its built?
                 </label>
                 <input
-                    id="name"
+                    id="manage"
                     type="text" 
-                    name="name"
+                    name="Manage"
                     placeholder='Manage Your Selft, Hire Someone?'
                 />
-                <label htmlFor="name" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
+                <label htmlFor="Pages" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
                     How many pages do you need?
                 </label>
                 <input
-                    id="name"
+                    id="pages"
                     type="number" 
-                    name="number"
+                    name="Pages"
                     placeholder='1 - 10 - 15 pages'
                 />
-                <label htmlFor="name" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
+                <label htmlFor="Time" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
                     When do you need this completed?
                 </label>
                 <input
-                    id="name"
+                    id="time"
                     type="text" 
-                    name="name"
+                    name="Time"
                     placeholder='Mention Date Please!'
                 />
-                <label htmlFor="name" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
+                <label htmlFor="Budget" className='sm1:text-[14px] sm3:text-[16px] lg2:text-[18px] xl:text-[22px] font-medium mt-[20px]'>
                     Minimum Budget?
                 </label>
                 <input
-                    id="name"
+                    id="budget"
                     type="number" 
-                    name="number"
+                    name="Budget"
                     placeholder='Based on Project!'
                 />
                 <button type="submit" disabled={state.submitting} className='font-medium text-[14px] bg-[#FF9142] hover:bg-[#ff7842ec] duration-500 hover:duration-500 px-[32px] py-[10px] rounded-full cursor-pointer'>
