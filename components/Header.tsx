@@ -36,6 +36,9 @@ const Header = () => {
         <Link href="/Contact" className="hover:bg-white hover:text-black duration-700 hover:duration-700 p-[7px] rounded-[5px] ">
           Contact
         </Link>
+        <Link href="/Service" className="hover:bg-white hover:text-black duration-700 hover:duration-700 p-[7px] rounded-[5px] ">
+          Service
+        </Link>
         <p>|</p>
         <Link href="https://www.linkedin.com/in/muhammad---shariq" target="_blank" className="hover:animate-pulse">
           <FontAwesomeIcon icon={faLinkedinIn} className="text-white size-[20px] hover:bg-white hover:text-black duration-700 hover:duration-700 p-[7px] rounded-full" />
@@ -70,6 +73,9 @@ const Header = () => {
           </Link>
           <Link href="/Contact" onClick={toggleMenu} className="text-white">
             Contact
+          </Link>
+          <Link href="/Service" onClick={toggleMenu} className="text-white">
+            Service
           </Link>
           <div className="flex gap-4">
             <Link href="https://www.linkedin.com/in/muhammad---shariq" target="_blank" onClick={toggleMenu}>
