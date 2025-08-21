@@ -51,11 +51,11 @@ const About = () => {
         <div className='flex md1:flex-row sm1:flex-col gap-[30px] sm1:items-start justify-between items-center w-full py-[20px] xl:text-[24px] sm2:text-[18px] md2:text-[20px] lg2:text-[22px]'>
           <Link href='https://www.linkedin.com/in/muhammad---shariq' target='_blank' className='text-[#949494] hover:underline font-semibold'>LINKEDIN</Link>
 
-          <Link href='https://www.quora.com/profile/Muhammad-Shariq-163' target='_blank' className='text-[#949494] hover:underline font-semibold'>QUORA</Link>
+          <Link href='https://www.fiverr.com/s/383jj4A' target='_blank' className='text-[#949494] hover:underline font-semibold'>FIVERR</Link>
 
           <Link href='https://github.com/shariq001' target='_blank' className='text-[#949494] hover:underline font-semibold'>GITHUB</Link>
 
-          <Link href='https://www.instagram.com/mu_shariq1/' target='_blank' className='text-[#949494] hover:underline font-semibold'>INSTAGRAM</Link>
+          <Link href='https://www.instagram.com/devshariq/' target='_blank' className='text-[#949494] hover:underline font-semibold'>INSTAGRAM</Link>
         </div>
       </div>
     </div>
